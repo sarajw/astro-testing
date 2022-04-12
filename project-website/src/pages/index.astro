@@ -1,13 +1,132 @@
----
-
----
 <html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width" />
-		<title>Astro</title>
-	</head>
-	<body>
-		<h1>Astro</h1>
-	</body>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Welcome!</title>
+  </head>
+  <body class="bg-slate-900 text-slate-200">
+    <div>
+      <nav
+        class="flex flex-wrap gap-5 sm:gap-10 md:gap-20 py-5 place-items-center place-content-center "
+      >
+        <a href="/" class="font-bold text-gray-300 hover:text-gray-300">Home</a>
+        <a
+          href="#features"
+          class="font-medium text-gray-400 hover:text-gray-300">Features</a
+        >
+        <a href="/pricing" class="font-medium text-gray-400 hover:text-gray-300"
+          >Pricing</a
+        >
+        <a href="/blog" class="font-medium text-gray-400 hover:text-gray-300"
+          >Blog</a
+        >
+        <a href="/login" class="font-medium text-gray-400 hover:text-gray-300"
+          >Login</a
+        >
+        <a
+          href="/signup"
+          class="font-medium text-slate-100 my-2 rounded-3xl bg-slate-500 hover:bg-slate-600 hover:text-slate-200 px-3 py-1 shadow-lg hover:shadow-md hover:translate-x-px hover:translate-y-px"
+          >Sign up</a
+        >
+      </nav>
+      <main class="bg-slate-800 py-20">
+        <div class="text-center leading-loose">
+          <h1 class="text-5xl leading-loose uppercase">
+            Buy this <em>AWESOME</em> tool
+          </h1>
+          <h2 class="text-2xl font-bold leading-loose">
+            Trusted by at least 3 companies:
+          </h2>
+          <ul class="mx-auto my-3 w-fit p-2 text-right">
+            <li
+              class="text-lg lowercase after:ml-2 after:content-['☑️'] hover:after:content-['✅']"
+            >
+              Apple
+            </li>
+            <li
+              class="text-lg lowercase after:ml-2 after:content-['☑️'] hover:after:content-['✅']"
+            >
+              Google
+            </li>
+            <li
+              class="text-lg lowercase after:ml-2 after:content-['☑️'] hover:after:content-['✅']"
+            >
+              Meta
+            </li>
+          </ul>
+          <button
+            class="font-medium text-white my-3 rounded-3xl bg-slate-500 hover:bg-slate-600 hover:text-slate-200 px-3 py-1 shadow-lg hover:shadow-md hover:translate-x-px hover:translate-y-px"
+            >Find out more</button
+          >
+        </div>
+        <div class="mt-20 mx-auto text-center max-w-3xl px-10 text-slate-300">
+          <p class="mt-2 text-2xl font-bold tracking-tight">
+            Everything you need to know about this app
+          </p>
+          <p class="mt-5 max-w-prose mx-auto text-xl">
+            A great list of things it allows you to do
+          </p>
+          <div class="mt-12 grid gap-8 grid-cols-1 sm:grid-cols-2">
+            <div
+              class="bg-gray-300 hover:bg-gray-200 rounded-lg px-6 pb-8 shadow-lg hover:shadow-md hover:translate-x-px hover:translate-y-px"
+            >
+              <h3 class="mt-8 text-lg font-medium text-gray-900">
+                First benefit
+              </h3>
+              <p class="mt-5 text-gray-500">You can save time</p>
+            </div>
+
+            <div
+              class="bg-gray-300 hover:bg-gray-200 rounded-lg px-6 pb-8 shadow-lg hover:shadow-md hover:translate-x-px hover:translate-y-px"
+            >
+              <h3 class="mt-8 text-lg font-medium text-gray-900">
+                Second benefit
+              </h3>
+              <p class="mt-5 text-gray-500">You can save money</p>
+            </div>
+            <div
+              class="bg-gray-300 hover:bg-gray-200 rounded-lg px-6 pb-8 shadow-lg hover:shadow-md hover:translate-x-px hover:translate-y-px"
+            >
+              <h3 class="mt-8 text-lg font-medium text-gray-900">
+                3rd benefit
+              </h3>
+              <p class="mt-5 text-gray-500">You can avoid X</p>
+            </div>
+            <div
+              class="bg-gray-300 hover:bg-gray-200 rounded-lg px-6 pb-8 shadow-lg hover:shadow-md hover:translate-x-px hover:translate-y-px"
+            >
+              <h3 class="mt-8 text-lg font-medium text-gray-900">
+                4th benefit
+              </h3>
+              <p class="mt-5 text-gray-500">You can do Y</p>
+            </div>
+          </div>
+        </div>
+      </main>
+      <footer class="pt-12">
+        <nav
+          class="flex gap-10 pt-2 pb-10 place-items-center place-content-center"
+        >
+          <a href="/" class="font-medium text-gray-400 hover:text-gray-300"
+            >Home</a
+          >
+          <a
+            href="#features"
+            class="font-medium text-gray-400 hover:text-gray-300">Features</a
+          >
+          <a
+            href="/pricing"
+            class="font-medium text-gray-400 hover:text-gray-300">Pricing</a
+          >
+          <a href="/blog" class="font-medium text-gray-400 hover:text-gray-300"
+            >Blog</a
+          >
+        </nav>
+        <p class="text-center text-gray-400">
+          &copy; 2022 Great Tool. All rights reserved.
+        </p>
+      </footer>
+    </div>
+  </body>
 </html>

@@ -3,12 +3,15 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
+    "format": "yarn prettier -w .",
     "dev": "astro dev",
     "start": "astro dev",
     "build": "astro build",
     "preview": "astro preview"
   },
   "devDependencies": {
-    "astro": "^1.0.0-beta.8"
+    "@astrojs/tailwind": "^0.1.2",
+    "astro": "^1.0.0-beta.8",
+    "prettier-plugin-astro": "^0.0.12"
   }
 }
