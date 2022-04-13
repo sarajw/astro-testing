@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width" />
     <title>Mul-ti-pass?</title>
     <style>
-      *:before {
-        outline: 1px dashed;
+      span {
+        #outline: 1px dashed;
       }
     </style>
   </head>
@@ -47,20 +47,23 @@
             To help you through your day to day:
           </h2>
           <ul class="mx-auto my-3 w-fit p-2 text-left">
-            <li
-              class="text-xl hover:text-green-300 before:mr-2 before:content-['≡'] before:inline-block before:translate-y-2 before:text-5xl before:text-green-300 hover:before:text-green-500"
-            >
-              Border crossings
+            <li class="text-xl hover:text-green-300">
+              <span
+                class="mr-2 my-2 inline-block w-8 h-8 leading-5 translate-y-2 text-5xl text-green-300 hover:text-green-500"
+                >&Congruent;</span
+              > Border crossings
             </li>
-            <li
-              class="text-xl hover:text-blue-300 before:mr-2 before:content-['≋'] before:inline-block before:translate-y-2 before:text-5xl before:text-blue-300 hover:before:text-blue-500"
-            >
-              Air and sea travel
+            <li class="text-xl hover:text-blue-300">
+              <span
+                class="mr-2 my-2 inline-block w-8 h-8 leading-5 translate-y-2 text-5xl text-blue-300 hover:text-blue-500"
+                >&apid;</span
+              > Air and sea travel
             </li>
-            <li
-              class="text-xl hover:text-orange-300 before:mr-2 before:content-['≋'] before:inline-block before:aspect-[1/1] before:-rotate-90 before:translate-y-2 before:text-5xl before:text-orange-300 hover:before:text-orange-500"
-            >
-              Emergency services
+            <li class="text-xl hover:text-orange-300">
+              <span
+                class="mr-2 my-2 inline-block w-8 h-8 leading-5 translate-y-2 -rotate-90 text-5xl text-orange-300 hover:text-orange-500"
+                >&apid;</span
+              > Emergency services
             </li>
           </ul>
           <a href="https://www.imdb.com/title/tt0119116/" target="_blank"
