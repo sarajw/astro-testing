@@ -4,6 +4,11 @@
     <link rel="icon" type="image/x-icon" href="/favicon.ico" />
     <meta name="viewport" content="width=device-width" />
     <title>Welcome!</title>
+    <style>
+      *:before {
+        #outline: 1px dashed;
+      }
+    </style>
   </head>
   <body class="bg-slate-900 text-slate-200">
     <div>
@@ -32,33 +37,38 @@
       </nav>
       <main class="bg-slate-800 py-20">
         <div class="text-center leading-loose">
-          <h1 class="text-5xl leading-loose uppercase">
-            Buy this <em>AWESOME</em> tool
+          <h1 class="text-5xl leading-loose">
+            Get your <span
+              class="uppercase font-extrabold text-8xl text-transparent bg-clip-text bg-gradient-to-br from-yellow-500 to-red-500"
+              >MultiPass</span
+            > here now
           </h1>
           <h2 class="text-2xl font-bold leading-loose">
-            Trusted by at least 3 companies:
+            To help you through your day to day:
           </h2>
-          <ul class="mx-auto my-3 w-fit p-2 text-right">
+          <ul class="mx-auto my-3 w-fit p-2 text-left">
             <li
-              class="text-lg lowercase after:ml-2 after:content-['☑️'] hover:after:content-['✅']"
+              class="text-xl hover:text-green-300 before:mr-2 before:content-['≡'] before:inline-block before:translate-y-1 before:text-5xl before:text-green-300 hover:before:text-green-500"
             >
-              Apple
+              Border crossings
             </li>
             <li
-              class="text-lg lowercase after:ml-2 after:content-['☑️'] hover:after:content-['✅']"
+              class="text-xl hover:text-blue-300 before:mr-2 before:content-['≋'] before:inline-block before:translate-y-1 before:text-5xl before:text-blue-300 hover:before:text-blue-500"
             >
-              Google
+              Air and sea travel
             </li>
             <li
-              class="text-lg lowercase after:ml-2 after:content-['☑️'] hover:after:content-['✅']"
+              class="text-xl hover:text-orange-300 before:mr-2 before:content-['≋'] before:inline-block before:-rotate-90 before:translate-y-3 before:-translate-x-1 before:text-5xl before:text-orange-300 hover:before:text-orange-500"
             >
-              Meta
+              Emergency services
             </li>
           </ul>
-          <button
-            class="font-medium text-white my-3 rounded-3xl bg-slate-500 hover:bg-slate-600 hover:text-slate-200 px-3 py-1 shadow-lg hover:shadow-md hover:translate-x-px hover:translate-y-px"
-            >Find out more</button
-          >
+          <a href="https://www.imdb.com/title/tt0119116/" target="_blank"
+            ><button
+              class="font-medium text-white my-3 rounded-3xl bg-slate-500 hover:bg-slate-600 hover:text-slate-200 px-3 py-1 shadow-lg hover:shadow-md hover:translate-x-px hover:translate-y-px"
+              >Find out more</button
+            >
+          </a>
         </div>
         <div class="mt-20 mx-auto text-center max-w-3xl px-10 text-slate-300">
           <p class="mt-2 text-2xl font-bold tracking-tight">
